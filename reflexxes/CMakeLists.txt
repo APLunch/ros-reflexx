@@ -14,14 +14,14 @@ find_package(ament_cmake REQUIRED)
 include_directories(include/reflexxes)
 
 add_library(reflexxes
-src/01_RMLPositionSampleApplication.cpp
-src/02_RMLPositionSampleApplication.cpp
-src/03_RMLPositionSampleApplication.cpp
-src/04_RMLVelocitySampleApplication.cpp
-src/05_RMLVelocitySampleApplication.cpp
-src/06_RMLVelocitySampleApplication.cpp
-src/07_RMLPositionSampleApplication.cpp
-src/08_RMLVelocitySampleApplication.cpp
+# src/01_RMLPositionSampleApplication.cpp
+# src/02_RMLPositionSampleApplication.cpp
+# src/03_RMLPositionSampleApplication.cpp
+# src/04_RMLVelocitySampleApplication.cpp
+# src/05_RMLVelocitySampleApplication.cpp
+# src/06_RMLVelocitySampleApplication.cpp
+# src/07_RMLPositionSampleApplication.cpp
+# src/08_RMLVelocitySampleApplication.cpp
 src/ReflexxesAPI.cpp
 src/TypeIIRMLCalculatePositionalExtrems.cpp
 src/TypeIIRMLDecisions.cpp
